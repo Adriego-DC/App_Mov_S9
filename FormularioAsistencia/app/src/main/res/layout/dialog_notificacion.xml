@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvDialogTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmación de asistencia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/verde_oscuro" />
+
+    <TextView
+        android:id="@+id/tvDialogDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Participa en el desfile de San Pedrito representando a la Universidad Nacional del Santa el dia 26 de Junio. ¡Te esperamos!"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btnDialogRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Asistencia"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/verde_oscuro"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tvMasInformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Desea ir a una pagina web para más información de San Pedrito?"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>

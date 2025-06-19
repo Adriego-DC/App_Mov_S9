@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/homeAlumnoImage"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/home_alumno_image"
+        android:contentDescription="Imagen Home Alumno" />
+
+    <TextView
+        android:id="@+id/tvDescripcionAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="¡Bienvenido Alumno! No olvides confirmar tu asistencia al Desfile de San Pedrito de la Universidad Nacional del Santa."
+        android:textSize="16sp"
+        android:textColor="@color/verde_oscuro" />
+
+</LinearLayout>

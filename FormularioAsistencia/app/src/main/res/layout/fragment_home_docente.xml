@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/homeDocenteImage"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/home_docente_image"
+        android:contentDescription="Imagen Home Docente" />
+
+    <TextView
+        android:id="@+id/tvDescripcionDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="¡Bienvenido Docente! Asegúrese de registrar y gestionar la asistencia de sus alumnos al Desfile de San Pedrito en la Universidad Nacional del Santa."
+        android:textSize="16sp"
+        android:textColor="@color/verde_oscuro" />
+
+</LinearLayout>
